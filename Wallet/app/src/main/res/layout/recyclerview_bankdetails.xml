@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/rv_txtview_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:text="@string/hint_name"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:paddingBottom="5dp"/>
+
+    <LinearLayout
+        android:id="@+id/rv_lin_accountno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+    <TextView
+        android:id="@+id/rv_txtview_accountnotitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:text="@string/hint_accountnumber"
+        android:textStyle="bold"
+        android:layout_weight="0.5"
+        android:textAppearance="?android:attr/textAppearance" />
+         <TextView
+            android:id="@+id/rv_txtview_accountno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:text="@string/hint_empty"
+            android:textStyle="bold"
+             android:gravity="center"
+            android:layout_weight="0.5"
+            android:textAppearance="?android:attr/textAppearance" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/app_bg_color"/>
+
+    <LinearLayout
+        android:id="@+id/rv_lin_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <TextView
+            android:id="@+id/rv_txtview_emailtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:text="@string/hint_email"
+            android:textStyle="bold"
+            android:layout_weight="0.5"
+            android:textAppearance="?android:attr/textAppearance" />
+
+        <TextView
+            android:id="@+id/rv_txtview_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:text="@string/hint_empty"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_weight="0.5"
+            android:textAppearance="?android:attr/textAppearance" />
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/app_bg_color"/>
+
+    <LinearLayout
+        android:id="@+id/rv_lin_mobilenumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <TextView
+            android:id="@+id/rv_txtview_mobilenumbertitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:text="@string/hint_mobile"
+            android:textStyle="bold"
+            android:layout_weight="0.5"
+            android:textAppearance="?android:attr/textAppearance" />
+
+        <TextView
+            android:id="@+id/rv_txtview_mobilenumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:text="@string/hint_empty"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_weight="0.5"
+            android:textAppearance="?android:attr/textAppearance" />
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/app_bg_color"/>
+
+    <LinearLayout
+        android:id="@+id/rv_lin_bankname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <TextView
+            android:id="@+id/rv_txtview_banknametitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:text="@string/hint_bankname"
+            android:textStyle="bold"
+            android:layout_weight="0.5"
+            android:textAppearance="?android:attr/textAppearance" />
+
+        <TextView
+            android:id="@+id/rv_txtview_bankname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:text="@string/hint_empty"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_weight="0.5"
+            android:textAppearance="?android:attr/textAppearance" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/app_bg_color"/>
+
+    <LinearLayout
+        android:id="@+id/rv_lin_branchname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <TextView
+            android:id="@+id/rv_txtview_branchnametitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:text="@string/hint_branchname"
+            android:textStyle="bold"
+            android:layout_weight="0.5"
+            android:textAppearance="?android:attr/textAppearance" />
+
+        <TextView
+            android:id="@+id/rv_txtview_branchname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:text="@string/hint_empty"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_weight="0.5"
+            android:textAppearance="?android:attr/textAppearance" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/app_bg_color"/>
+
+    <LinearLayout
+        android:id="@+id/rv_lin_bankaddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <TextView
+            android:id="@+id/rv_txtview_bankaddresstitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:text="@string/hint_bankaddress"
+            android:textStyle="bold"
+            android:layout_weight="0.5"
+            android:textAppearance="?android:attr/textAppearance" />
+
+        <TextView
+            android:id="@+id/rv_txtview_bankaddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:text="@string/hint_empty"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_weight="0.5"
+            android:textAppearance="?android:attr/textAppearance" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/app_bg_color"/>
+
+    <LinearLayout
+        android:id="@+id/rv_lin_ifsccode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <TextView
+            android:id="@+id/rv_txtview_ifsccodetitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:text="@string/hint_ifsccode"
+            android:textStyle="bold"
+            android:layout_weight="0.5"
+            android:textAppearance="?android:attr/textAppearance" />
+
+        <TextView
+                android:id="@+id/rv_txtview_ifsccode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:text="@string/hint_empty"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_weight="0.5"
+            android:textAppearance="?android:attr/textAppearance" />
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/app_bg_color"/>
+
+    <LinearLayout
+        android:id="@+id/rv_lin_internetbankingusername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <TextView
+            android:id="@+id/rv_txtview_internetbankingusernametitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:text="@string/hint_InternetBankingUserName"
+            android:textStyle="bold"
+            android:layout_weight="0.5"
+            android:textAppearance="?android:attr/textAppearance" />
+
+        <TextView
+            android:id="@+id/rv_txtview_internetbankingusername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:text="@string/hint_empty"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_weight="0.5"
+            android:textAppearance="?android:attr/textAppearance" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/app_bg_color"/>
+
+    <LinearLayout
+        android:id="@+id/rv_lin_internetbankingpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <TextView
+            android:id="@+id/rv_txtview_internetbankingpasswordtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:text="@string/hint_InternetBankingPassword"
+            android:textStyle="bold"
+            android:layout_weight="0.5"
+            android:textAppearance="?android:attr/textAppearance" />
+
+        <TextView
+            android:id="@+id/rv_txtview_internetbankingpassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:text="@string/hint_empty"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_weight="0.5"
+            android:textAppearance="?android:attr/textAppearance" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/app_bg_color"/>
+
+    <LinearLayout
+        android:id="@+id/rv_lin_internetbankingtransactionpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <TextView
+            android:id="@+id/rv_txtview_internetbankingtransactionpasswordtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:text="@string/hint_InternetBankingTransactionPassword"
+            android:textStyle="bold"
+            android:layout_weight="0.5"
+            android:textAppearance="?android:attr/textAppearance" />
+
+        <TextView
+            android:id="@+id/rv_txtview_internetbankingtransactionpassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:text="@string/hint_empty"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_weight="0.5"
+            android:textAppearance="?android:attr/textAppearance" />
+    </LinearLayout>
+
+</LinearLayout>
+    </android.support.v7.widget.CardView>

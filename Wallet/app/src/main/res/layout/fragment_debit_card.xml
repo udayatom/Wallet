@@ -1,0 +1,114 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.CreditCardFragment">
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/input_layout_debitcardaccountname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/input_debitcardaccountname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="@string/hint_accountholdername" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/input_layout_debitcardbankname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <AutoCompleteTextView
+            android:id="@+id/input_debitcardbankname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="@string/hint_bankname" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/input_layout_debitcardnumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/input_debitcardnumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text|number"
+            android:hint="@string/hint_debitcardnumber" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/input_layout_debitcardtype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/input_debitcardtype"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text|number"
+            android:hint="@string/hint_debiitcardtype" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/input_layout_debitcardcvvnumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/input_debitcardcvvnumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text|number"
+            android:hint="@string/hint_debitcardcvvnumber" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/input_layout_debitcardpin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/input_debitcardpin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text|number"
+            android:hint="@string/hint_debitcardpin" />
+    </android.support.design.widget.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1" >
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_debitcardmonth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5">
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/input_debitcardmonth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text|number"
+                android:hint="@string/hint_debitcardmonth" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_debitcardyear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5">
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/input_debitcardyear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text|number"
+                android:hint="@string/hint_debitcardyear" />
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+
+</LinearLayout>

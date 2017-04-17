@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+   <!-- <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Import" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Slideshow" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Tools" />
+        <item
+            android:id="@+id/nav_manage2"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Tools2" />
+    </group>
+
+    <item android:title="Communicate"
+        android:id="@+id/nav_communication_group">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+-->
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_one"
+            android:title="menu_one" />
+        <item
+            android:id="@+id/nav_two"
+            android:title="menu_two" />
+
+        <item
+            android:id="@+id/nav_three"
+            android:title="menu_three" />
+
+        <item
+            android:id="@+id/nav_four"
+            android:title="menu_four" />
+
+        <item
+            android:id="@+id/nav_five"
+            android:title="menu_five" />
+
+        <item
+            android:id="@+id/nav_six"
+            android:title="menu_six" />
+
+        <item
+            android:id="@+id/nav_seven"
+            android:title="menu_seven" />
+
+    </group>
+
+</menu>

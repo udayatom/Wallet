@@ -1,0 +1,114 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.CreditCardFragment">
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/input_layout_creditcardaccountname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/input_creditcardaccountname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="@string/hint_accountholdername" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/input_layout_creditcardbankname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <AutoCompleteTextView
+            android:id="@+id/input_creditcardbankname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="@string/hint_bankname" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/input_layout_creditcardnumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/input_creditcardnumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text|number"
+            android:hint="@string/hint_creditcardnumber" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/input_layout_creditcardtype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/input_creditcardtype"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text|number"
+            android:hint="@string/hint_creditcardtype" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/input_layout_creditcardcvvnumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/input_creditcardcvvnumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text|number"
+            android:hint="@string/hint_creditcardcvvnumber" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/input_layout_creditcardpin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/input_creditcardpin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text|number"
+            android:hint="@string/hint_creditcardpin" />
+    </android.support.design.widget.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1" >
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/input_layout_creditcardmonth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5">
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/input_creditcardmonth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text|number"
+            android:hint="@string/hint_creditcardmonth" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/input_layout_creditcardyear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5">
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/input_creditcardyear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text|number"
+            android:hint="@string/hint_creditcardyear" />
+    </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
