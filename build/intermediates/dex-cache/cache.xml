@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/root/.android/build-cache/61f9ec40f8f78bc1e43c5bdad30e00ada2851b4a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="541a2ad68dc68aa49795821f8280b7624e6a0c9b">
+        <dex dex="/home/user1/Projects/Wallet/app/build/intermediates/pre-dexed/debug/classes_92c56eedcb21325d7f6cd74393fb3dcf768aa91c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/user1/Android/Sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.0-alpha7/constraint-layout-solver-1.0.0-alpha7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="439eeb5ffd54cbd18db0a6aea471e8356f19fc36">
+        <dex dex="/home/user1/Projects/Wallet/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.0-alpha7_7929da0535400c1c2afa3961d3e5708cb26a2aaf.jar" />
+    </item>
+
+</items>
